@@ -1,5 +1,10 @@
 .container-fluid{
   padding: 25px;
   background-color: #F3F3F3;
+  margin: 25px;
   
+}
+
+.row{
+  margin: 25em;
 }
