@@ -1,23 +1,40 @@
 .container-fluid{
   padding: 25px;
   background-color: #F3F3F3;
-  margin: 25px;
+  margin: auto;
   
 }
 
 .row{
-  margin: 25em;
+  margin: 105px;
   background-color: #FFFFFF;
+  border-left: #B8B6B9;
+  border-right: #B8B6B9;
+  border-bottom: #B8B6B9;
+  
+}
+
+.section{
+  width: 150px;
+  height: 150px;
 }
 
 .btn-default{
   background-color: #FFB947;
-  padding: 25px;
+  margin: 25px;
 }
 
-.img{
+.cesLogo{
   float: right;
-  width: 170px;
-  height: 170px;
+  width: 150px;
+  height: 150px;
   margin-left: 15px;
 }
+
+.p{
+  color: #F1F1F1;
+}
+
+.label{
+  color: #161527;
+}ce
