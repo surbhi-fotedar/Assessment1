@@ -21,13 +21,17 @@
 
 .btn-default{
   background-color: #FFB947;
-  margin: 25px;
+  margin: auto;
+  height: 50px;
+  width: 150px;
+
+  
 }
 
 .cesLogo{
   float: right;
-  width: 150px;
-  height: 150px;
+  width: 50px;
+  height: 50px;
   margin-left: 15px;
 }
 
@@ -37,4 +41,60 @@
 
 .label{
   color: #161527;
-}ce
+}
+
+.form-control{
+  border-bottom-color: #17161B;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FFFFFF;
+  color: white;
+  text-align: center;
+}
+
+
+/* .float-left{
+  float: left;
+}
+.float-right{
+  float: right;
+}
+.padding-left-5{
+  padding-left: 5%;
+}
+.padding-right-5{
+  padding-right: 5%;
+}
+
+.padding-top-15{
+  padding-top: 50px;
+}
+.display-inline{
+display: inline;
+height: 120px;
+width: 150px;
+}  */
+
+.copyright{
+  float: left;
+  padding-left: 5%;
+  padding-top: 50px;
+  color: #161527;
+}
+
+.footerText{
+  float: right;
+  padding-right: 5%;
+  color: #161527;
+}
+
+.cesLogo{
+  display: inline;
+  height: 120px;
+  width: 150px;
+}
