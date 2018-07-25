@@ -15,6 +15,7 @@ footer {
  }
 .main-section {
     height: 100%;
+    background-color: #F3F3F3;
 }
 
 .login-section {
@@ -30,9 +31,6 @@ footer {
 
 .no-pad {
   padding: 0px;
-}
-.rm-50 {
-  margin-right: 50px;
 }
 
 .sc-Logo {
@@ -60,7 +58,11 @@ footer {
 }
 
 .grey-bg {
-  background-color: lightgrey;
+  background-color: #F3F3F3;
+}
+
+.top-border {
+  border-top: 1px solid #A4A4A4; 
 }
 
 /* Bootsrap Styles */
