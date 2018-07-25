@@ -24,9 +24,6 @@ footer {
   border-radius: 12px;
 }
 
-.no-pad {
-  padding: 0px;
-}
 
 .sc-Logo {
   height: 232px;
@@ -39,7 +36,7 @@ footer {
 
 .text-input {
   border: none;
-  border-bottom: 1px solid #17161B;
+  border-bottom: 1px solid #18181A;
 }
 
 
