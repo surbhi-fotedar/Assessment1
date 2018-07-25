@@ -1,100 +1,78 @@
-.container-fluid{
-  padding: 25px;
-  background-color: #F3F3F3;
-  margin: auto;
-  
-}
-
-.row{
-  margin: 105px;
-  background-color: #FFFFFF;
-  border-left: #B8B6B9;
-  border-right: #B8B6B9;
-  border-bottom: #B8B6B9;
-  
-}
-
-.section{
-  width: 150px;
-  height: 150px;
-}
-
-.btn-default{
-  background-color: #FFB947;
-  margin: auto;
-  height: 50px;
-  width: 150px;
-
-  
-}
-
-.cesLogo{
-  float: right;
-  width: 50px;
-  height: 50px;
-  margin-left: 15px;
-}
-
-.p{
-  color: #F1F1F1;
-}
-
-.label{
-  color: #161527;
-}
-
-.form-control{
-  border-bottom-color: #17161B;
+body {
+  min-height: 100%;
 }
 
 footer {
-  position: fixed;
-  left: 0;
+  position: absolute;
+  padding-top: 8px;
   bottom: 0;
   width: 100%;
-  background-color: #FFFFFF;
-  color: white;
-  text-align: center;
+  height: 60px;
+ }
+
+ p {
+  color: #F1F1F1;
+ }
+.main-section {
+    height: 100%;
+}
+
+.login-section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 40%;
+  height: 30%;
+  margin: auto;
+}
+
+.no-pad {
+  padding: 0px;
+}
+.rm-50 {
+  margin-right: 50px;
+}
+
+.sc-Logo {
+  height: 232px;
+  width: 285px;
+}
+
+.login-form {
+  padding: 25px;
+}
+
+.text-input {
+  border: none;
+  border-bottom: 1px solid #17161B;
 }
 
 
-/* .float-left{
-  float: left;
-}
-.float-right{
-  float: right;
-}
-.padding-left-5{
-  padding-left: 5%;
-}
-.padding-right-5{
-  padding-right: 5%;
+.copyright {
+  line-height: 44px;
 }
 
-.padding-top-15{
-  padding-top: 50px;
+.company-logo{
+  height: 44px;
+  width: 59px;
 }
-.display-inline{
-display: inline;
-height: 120px;
-width: 150px;
-}  */
 
-.copyright{
-  float: left;
-  padding-left: 5%;
-  padding-top: 50px;
+.grey-bg {
+  background-color: lightgrey;
+}
+
+/* Bootsrap Styles */
+ 
+.panel-body {
+  padding: 0px;
+}
+
+.btn-default {
   color: #161527;
-}
-
-.footerText{
-  float: right;
-  padding-right: 5%;
-  color: #161527;
-}
-
-.cesLogo{
-  display: inline;
-  height: 120px;
-  width: 150px;
+  background-color: #FFB947;
+  border-color: #FFB947;
+  border-radius: 18px;
+  min-width: 160px;
 }
