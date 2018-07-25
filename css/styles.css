@@ -1,0 +1,85 @@
+body {
+  min-height: 100%;
+}
+
+footer {
+  bottom: 0;
+  height: 60px;
+  padding-top: 8px;
+  position: absolute;
+  width: 100%;
+}
+
+
+.app-logo {
+  height: 232px;
+  width: 285px;
+}
+
+.company-logo {
+  height: 44px;
+  width: 59px;
+}
+
+.main-section {
+  height: 100%;
+}
+
+.test-section {
+  background-color: darkgray;
+  height: 1080px;
+}
+
+.login-section {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 40%;
+  height: 30%;
+  margin: auto;
+}
+
+.login-form {
+  padding: 25px;
+}
+
+.copyright-text{
+  line-height: 44px;
+}
+
+.grey-bg {
+  background-color: lightgray;
+}
+
+.top-border {
+  border-top: 2px solid #000000;
+}
+
+.text-input {
+  border: none;
+  border-bottom: 1px solid darkgrey;
+}
+
+.no-pad {
+  padding: 0;
+}
+
+.rm-50 {
+  margin-right: 50px;
+}
+
+/* Bootstrap Styles */
+
+.btn-primary {
+  color: #000;
+  background-color: #FFB947;
+  border-color: #FFB947;
+  border-radius: 18px;
+  min-width: 160px;
+}
+
+.panel-body {
+  padding: 0;
+}
